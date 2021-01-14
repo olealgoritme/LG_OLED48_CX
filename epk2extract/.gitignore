@@ -1,0 +1,33 @@
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+### C ###
+# Object files
+*.o
+
+# Libraries
+*.a
+*.la
+
+# Executables
+*.exe
+*.out
+
+
+### Epk2Extract ###
+
+# build
+build_linux
+build_cygwin
+build_osx
+
+# Linux build artifacts
+src/epk2extract
+src/tools/idb_extract
+src/tools/jffs2extract
+src/tools/lzhs_scanner
+src/tools/lzhsenc
